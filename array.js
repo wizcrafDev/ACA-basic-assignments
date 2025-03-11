@@ -11,6 +11,6 @@ function removeNumber(array){
  array.pop();
  return array;
 }
-number = removeNumber(number);
+ removeNumber(number);
 console.log(number);
 
