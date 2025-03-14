@@ -1,13 +1,13 @@
-var buzz = [];
-var adder = 1;
-
-
-function fizzbra () {
-buzz.push(adder);
-adder ++; 
-
-
-    console.log(buzz);
+const fizzBuzzBox = []
+for (i =1; i<=100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        fizzBuzzBox.push("fizzBuzz");
+    } else if (i % 3 === 0) {
+        fizzBuzzBox.push("fizz");
+    } else if (i % 5 === 0) {
+        fizzBuzzBox.push("Buzz");
+    } else {
+        fizzBuzzBox.push(i);
+    }
 }
-
-fizzbra();
+console.log(fizzBuzzBox);

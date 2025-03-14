@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-03 week-04 | Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Image Slider</h2>
+    <!-- adding the first image in the image array here to make it default -->
+    <!-- then getting the id using it to insert the images in the array base on the index 
+      example scr="images[0]" is shows the first image in the array
+      if the button next is clicked then scr="images[1]" will be shown the second image in the array etc.
+      so goes to the previous button when clicked it goes back to the first image scr="images[0]"
+     -->
+    <img
+      id="sliderImage"
+      src="https://images.pexels.com/photos/30847375/pexels-photo-30847375/free-photo-of-stylish-man-walking-along-brick-wall-at-sunset.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+    />
+    <br />
+    <button onclick="prevImage()">Previous</button>
+    <button onclick="nextImage()">Next</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
